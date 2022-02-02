@@ -1,4 +1,4 @@
-import os,sys,time
+import os,sys,time,requests
 localtime = time.asctime(time.localtime(time.time()))
 ip = requests.get('https://api.ipify.org').text
 print
