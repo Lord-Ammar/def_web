@@ -1,5 +1,5 @@
 #!/bin/bash
-spinner=( loading... loading... Loading... lOading... loAding... loaDing... LoadIng... loadiNg... LoadinG... LoadinG...);
+spinner=( Starting[|] Starting[/] Starting[-] Starting[\] Starting[|] Starting[/] Starting[-] Starting[\] Starting [|]);
 count(){
   spin &
   pid=$!
